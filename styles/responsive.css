@@ -1,0 +1,97 @@
+@media (min-width:600px) {
+
+    #home-page {
+        height: 100vh;
+    }
+
+    #home-page .wrapper {
+        width:80%;
+        margin:0 auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #home-page .right .intro .head,
+    #home-page .right .about-us,
+    #home-page .right .highlights {
+        width: 100%;
+        margin:0 auto;
+    }
+
+    #home-page .right .intro .cards-social {
+        width: 80%;
+        margin:0 auto;
+    }
+
+    #home-page .right .intro .head img {
+        width: 50%;
+        border-radius: 15px;
+        
+    }
+
+    #home-page .left {
+        width: 100%;
+        margin:0 auto;
+        display: inline;
+    }
+
+    #home-page .left img {
+        width:75%;
+        position: relative;
+        top: 10px;
+        left: 20%;
+    }
+
+    #about-page .card {
+        width:80%;
+        margin: 20px auto;
+    }
+
+    #about-page .card .card-wrapper {
+        display:flex;
+
+    }
+
+    #about-page .card .card-wrapper .inner-card img {
+        width: 20%;
+   }
+
+    #about-page .card .card-wrapper .inner-card:first-child {
+        margin-right: 20px;
+    }
+
+    #about-page .card .inner-card {
+        width: 50%;
+        margin: 80px auto 0;
+
+    }
+
+    #about-page .card .inner-card img {
+        width:20%;
+    }
+
+    #analytics-page .cards-stats {
+        width:80%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+        margin:0 auto;
+    }
+
+    #analytics-page .charts-containers {
+        width: 80%;
+        margin: 0 auto;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    #prices-page .prices-wrapper {
+        width:80%;
+        margin:0 auto;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    footer .footer-wrapper .footer-head img {
+        width: 15%;
+    }
+}
