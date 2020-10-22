@@ -182,6 +182,14 @@ header .header .links button span {
     justify-content: center;
 }
 
+#home-page .right .intro .cards-social .card-social:hover {
+    box-shadow: -5px -5px rgba(233, 237, 18, 1), 5px 5px rgba(212, 7, 105, 1);
+}
+
+#home-page .right .intro .cards-social .card-social p a {
+    color: white;
+}
+
 #home-page .right .intro .cards-social .card-social p i {
     color: var(--yellow-color);
     margin-right: 10px;
