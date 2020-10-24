@@ -498,6 +498,12 @@ header .header .links button span {
     background: var(--dark-blue-color);
 }
 
+#prices-page #card-head {
+    color: var(--pink-color);
+    text-align: center;
+    margin-top: 20px;
+}
+
 #prices-page .prices-head {
     color: var(--white-color);
     text-align: center;
